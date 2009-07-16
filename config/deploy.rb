@@ -35,6 +35,7 @@ after "deploy", "deploy:restart"
 namespace :config do
   desc "copy shared configurations to current"
   task :copy_shared_configurations, :roles => [:app] do
+    run "ln -sf #{shared_path}/cache #{release_path}/public/cache"
     %w[database.yml cyl.yml].each do |f|
       run "ln -nsf #{shared_path}/config/#{f} #{release_path}/config/#{f}"
     end
@@ -53,29 +54,6 @@ namespace :deploy do
     task t, :roles => :app do ; end
   end
 end
-
-
-# http://www.magnionlabs.com/2009/2/28/background-job-processing-in-rails-with-delayed_job
-namespace :delayed_job do
-  desc "Start delayed_job process"
-  task :start, :roles => :app do
-    run "cd #{current_path}; script/delayed_job start production" #{rails_env}"
-  end
-
-  desc "Stop delayed_job process"
-  task :stop, :roles => :app do
-    run "cd #{current_path}; script/delayed_job stop production" #{rails_env}"
-  end
-
-  desc "Restart delayed_job process"
-  task :restart, :roles => :app do
-    run "cd #{current_path}; script/delayed_job restart production" #{rails_env}"
-  end
-end
-
-after "deploy:start", "delayed_job:start"
-after "deploy:stop", "delayed_job:stop"
-after "deploy:restart", "delayed_job:restart"
 
 
 
