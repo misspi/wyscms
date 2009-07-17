@@ -1,7 +1,16 @@
 
 body { 
     margin: 0 0 0 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11.4px;
+    color:silver;
+}
 
+h3 {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
 }
 
 a {
@@ -203,6 +212,13 @@ a {
     width: 600px;
     float: left;
     margin: 43px 43px 0 43px;
+}
+
+.column1{
+    width: 450px;
+    float: left;
+    text-align: justify;
+    line-height: 1.7em;
 }
 
 
