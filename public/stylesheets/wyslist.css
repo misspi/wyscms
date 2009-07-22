@@ -1,5 +1,5 @@
 
-body { 
+body {
     margin: 0 0 0 0;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 11.4px;
@@ -15,6 +15,7 @@ h3 {
 
 a {
     text-decoration: none;
+    color: #ff77d2;
 }
 
 #container {
@@ -66,12 +67,9 @@ a {
     padding-bottom: 4000px;
 }
 
-
-
 .line.top {
     background-color: #666666;
     height: 113px;
-
 }
 
 .space {
@@ -81,8 +79,7 @@ a {
 }
 
 #quotes {
-    background-image:   url(../images/cita_01.jpg);
-    background-repeat: no-repeat;
+    background-color: #333333;
     margin: 10px 0 0 0;
     height: 103px;
     width: 600px;
@@ -141,14 +138,10 @@ a {
     color: #017272;
 }
 
-.main .space {
-    width: 43px;
-    display: block;
-    float: left;
-}
+
 
 .main ul {
-    margin: 3px;
+    margin: 3px 0 0 0;
     padding: 0px;
 }
 
@@ -157,45 +150,44 @@ a {
     float: left;
     list-style-type: none;
 }
-
-.main ul {
-    color: #017272;
+.spacelogo{
+    background-image: url(../images/logopart.png);
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 43px;
+    display: block;
+    float: left;
 }
-
-.main ul li a:hover  {
+.menu ul li a:hover{
     color: #00ffff;
 }
 
- .menu ul .open a {
+.menu ul .open a {
+    color: #00ffff;
+}
+
+.menu .depth-1 a{
+    color: #017272;
+}
+
+.menu ul .depth-2 a{
     color: white;
- }
-
- .menu ul .depth-2.first{
-    margin: 5px 0 0 0;
- }
-
-  .menu ul .depth-2 .on{
-   color: red;
- }
-
-.menu li .depth-2 a {
     line-height: 1.5em;
-    color: white;
- }
+    margin-left: 0px;
+}
 
+.menu ul .on a {
+    color: #00ffff;
+}
+
+.menu ul .depth-2.first{
+    margin: 5px 0 0 0;
+}
 
 #contact-us {
     background-image:   url(../images/contact.png);
     background-repeat: no-repeat;
     margin-top: 2px;
-}
-
-.secondary .spacelogo{
-    background-image: url(../images/logopart.png);
-    background-repeat: no-repeat;
-    width: 43px;
-    display: block;
-    float: left;
 }
 
 #content {
@@ -266,6 +258,7 @@ a {
     background-image:  url(../images/bookgut.png);
     background-repeat: no-repeat;
     margin: 2px 0 0 1px;
+    height:22px;
 }
 
 #news .content {
