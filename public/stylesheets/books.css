@@ -1,0 +1,13 @@
+
+
+.book {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.columnimg{
+    display: block;
+    width: 129px;
+    float: left;
+}

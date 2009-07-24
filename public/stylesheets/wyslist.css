@@ -15,7 +15,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color: #ff77d2;
+    color: #ff66cc;
 }
 
 #container {
@@ -171,7 +171,7 @@ a {
 }
 
 .menu ul .depth-2 a{
-    color: white;
+    color: #017272;
     line-height: 1.5em;
     margin-left: 0px;
 }
@@ -183,6 +183,7 @@ a {
 .menu ul .depth-2.first{
     margin: 5px 0 0 0;
 }
+
 
 #contact-us {
     background-image:   url(../images/contact.png);
@@ -198,11 +199,9 @@ a {
 
 .column1{
     width: 450px;
-    float: left;
+    float: right;
     text-align: justify;
-    line-height: 1.7em;
 }
-
 
 #extra {
     background-color: white;
@@ -264,7 +263,7 @@ a {
 #news .content {
     background-color: white;
     height:  240px;
-    margin: 30px 10px 0 2px;
+    margin: 30px 10px 0 15px;
 }
 
 #advertisement {
