@@ -38,6 +38,8 @@ a {
 
 #all {
     width: 80%;
+    min-width: 870px;
+    overflow: hidden;
     float: left;
     margin-bottom: -4000px;
     padding-bottom: 4000px;
