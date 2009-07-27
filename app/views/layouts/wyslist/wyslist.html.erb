@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="/stylesheets/wyslist.css" media="screen" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+    <%= javascript_include_tag 'jquery.wyslist', 'jquery.cross-slide' %>
+    <title>Wyslist - Bookgut : pruebas</title>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("li.depth-2").hide();
+
+        $("#menu").hover(function() {
+          $("li.depth-2").slideDown();
+        });
+
+        $("#menu").click(function () {
+          $("li.depth-2").slideUp();
+
+        });
+
+
+      });
+    </script>
+
+
+  </head>
+  <body>
+    <%= cms_toolbar %>
+
+    <div id="all">
+      <div id="main-logo">
+        <%= image_tag 'wyslist.png' %>
+      </div>
+
+      <div id="center">
+
+        <div id="header">
+          <div class="line top">
+            <div class="space">&nbsp;</div>
+            <div id="quotes">&nbsp;</div>
+            <div class="color" id="color-a">&nbsp;</div>
+          </div>
+          <div class="line colors">
+            <div class="color" id="color-1">&nbsp;</div>
+            <div class="color" id="color-2">&nbsp;</div>
+            <div class="color" id="color-3">&nbsp;</div>
+            <div class="color" id="color-4">&nbsp;</div>
+          </div>
+          <div class="line navigation">
+            <%= render :partial => "partials/navigation" %>
+
+          </div>
+
+          <div id="content">
+            <div class="column1">
+              <%= container :main %>
+            </div>
+          </div>
+
+        </div>
+        <div id="extra">
+          <div class="color" id="color-b">&nbsp;</div>
+          <div class="color" id="color-c">&nbsp;</div>
+          <div class="color" id="color-d">&nbsp;</div>
+          <div class="color" id="color-e">&nbsp;</div>
+          <div id="news">
+            <div class="logo">&nbsp;</div>
+            <div class="content">NOTICIAS</div>
+          </div>
+          <div id="advertisement">PUBLICIDAD</div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

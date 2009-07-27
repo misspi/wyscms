@@ -4,6 +4,7 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 11.4px;
     color:silver;
+    background-color: #666666;
 }
 
 h3 {
@@ -18,31 +19,15 @@ a {
     color: #ff66cc;
 }
 
-#container {
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-}
 
 
-#left {
-    background-color: #666666;
-    width: 10%;
-    display: block;
-    float: left;
-    margin-bottom: -4000px;
-    padding-bottom: 4000px;
-
-}
 
 
 #all {
-    width: 80%;
-    min-width: 870px;
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
-    float: left;
-    margin-bottom: -4000px;
-    padding-bottom: 4000px;
 }
 
 #right {
@@ -206,7 +191,6 @@ a {
 }
 
 #extra {
-    background-color: white;
     width: 175px;
     float: left;
 
@@ -241,7 +225,6 @@ a {
 #color-e {
     width: 46px;
     height: 43px;
-    background-color: #ffffff;
     margin-top: 69px;
     border-bottom: solid 1px #000000;
 }
