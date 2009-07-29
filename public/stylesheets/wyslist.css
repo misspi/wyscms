@@ -263,11 +263,8 @@ a {
 
 #footer{
     width: 686px;
-        font-family: Arial, Verdana, Helvetica, sans-serif;
-    font-size: 10px;
-    color: silver;
-    margin-left: auto;
-    margin-top: 5px;
-    margin-right: auto;
+    font-size: 9px;
+    text-align: center;
+    margin-left: 30px;
     margin-bottom:50px;
 }
