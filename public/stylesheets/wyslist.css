@@ -242,8 +242,9 @@ a {
 #news .content {
     background-color: white;
     height:  400px;
-    margin: 12px 5px 0 15px;
-    overflow: hidden;
+    margin: 12px 1px 0 15px;
+    overflow: auto;
+    padding-right: 4px;
     font-family: Arial, Verdana, Helvetica, sans-serif;
     font-size: 10px;
     color: #000000;
