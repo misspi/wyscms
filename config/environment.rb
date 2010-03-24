@@ -7,7 +7,7 @@ RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
 require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
-  gem 'browsercms'
+  gem 'browsercms', :version => '3.0.1'
 
 
   config.time_zone = 'UTC'

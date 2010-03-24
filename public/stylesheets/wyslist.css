@@ -22,7 +22,7 @@ a {
 
 
 #all {
-    width: 890px;
+    width: 904px;
     margin-left: auto;
     margin-top: 30px;
     margin-right: auto;
@@ -32,8 +32,8 @@ a {
 
 #main-logo {
     background-color: #666666;
-    width: 29px;
-    padding-top: 90px;
+    width: 41px;
+    padding-top: 113px;
     display: block;
     float: left;
 
@@ -233,16 +233,16 @@ a {
 }
 
 .logo {
-    background-image:  url(../images/bookgut.gif);
+    background-image:  url(../images/booka.gif);
     background-repeat: no-repeat;
-    margin: 2px 0 0 1px;
-    height:22px;
+    margin: 2px 0 0 5px;
+    height:48px;
 }
 
 #news .content {
     background-color: white;
     height:  400px;
-    margin: 12px 1px 0 15px;
+    margin: 2px 1px 0 15px;
     overflow: auto;
     padding-right: 4px;
     font-family: Arial, Verdana, Helvetica, sans-serif;

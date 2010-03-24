@@ -1,6 +1,6 @@
 DS_Store
 log/*.log
-tmp/**/*
+tmp/**
 config/database.yml
 config/git.yml
 db/*.sqlite3
