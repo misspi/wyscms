@@ -232,6 +232,14 @@ a {
     border-left: solid 1px #000000;
 }
 
+#ministerio {
+        background-image:  url(/images/ministerio_b_y_n.gif);
+    background-repeat: no-repeat;
+    width: 175px;
+    height: 49px;
+    float: left;
+}
+
 .logo {
     background-image:  url(../images/booka.gif);
     background-repeat: no-repeat;
